@@ -94,7 +94,7 @@ public class SignInController implements Initializable {
             Scene scene = new Scene(root);
             String css = this.getClass().getResource("Admin.css").toExternalForm();
             scene.getStylesheets().addAll(css);
-            stage.getIcons().add(new Image("file:C:\\Users\\VASPAR ASPI\\Documents\\NetBeansProjects\\Admin\\dist\\Admin.png"));
+            stage.getIcons().add(new Image(""));
             stage.setScene(scene);
             stage.setTitle("Admin");
             stage.setResizable(false);
